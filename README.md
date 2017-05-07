@@ -192,7 +192,9 @@ Download the **S3/assets/js.constants.js** file to your local machine and open i
 
 * The Identity Pool Id was automatically filled in with several other variables when the CloudFormation template was launched.
 
-20\. Save the constants.js file and upload it back to S3. While in the S3 console window, make sure you are in the **js** directory. Click the blue **Upload** button and upload the constants.js file from your local machine. Within the upload dialog, select the "Manage public permissions" dropdown and set the permissions on the file to read-only for the public by selecting the **Read** checkbox next to Everyone under the Objects category. You can also drag your file from your local machine into the S3 browser console to initiate an upload and then when the object is uploaded, make sure to select **Make Public**.
+20\. Save the constants.js file and upload it back to S3. While in the S3 console window, make sure you are in the **js** directory. Click the blue **Upload** button and upload the constants.js file from your local machine. Click **Next** to set the permissions on the file. Select the "Manage group permissions" and set the permissions on the file to read-only for the public by selecting the **Read** checkbox next to Everyone under the Objects category. Click **Next** for "Set properties". Leave defaults. Click **Next** for Review. Click **Upload** to upload file.
+
+* You can also drag your file from your local machine into the S3 browser console to initiate an upload and then when the object is uploaded, make sure to select **Make Public**.
 
 * Your application now has the configuration it needs to interact with Cognito.
 
